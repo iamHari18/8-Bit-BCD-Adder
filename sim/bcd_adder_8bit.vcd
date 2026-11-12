@@ -1,0 +1,146 @@
+$date
+	Thu Nov 12 15:10:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_bcd_adder_8bit $end
+$var wire 8 ! Sum [7:0] $end
+$var wire 1 " Cout $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$scope module uut $end
+$var wire 8 % A [7:0] $end
+$var wire 8 & B [7:0] $end
+$var wire 1 ' carry_out_lsd $end
+$var wire 8 ( Sum [7:0] $end
+$var wire 1 " Cout $end
+$scope module BCD_LSD $end
+$var wire 4 ) A [3:0] $end
+$var wire 4 * B [3:0] $end
+$var wire 1 + Cin $end
+$var wire 1 ' Cout $end
+$var wire 5 , temp_sum [4:0] $end
+$var wire 5 - corrected_sum [4:0] $end
+$var wire 1 . carry_correction $end
+$var wire 4 / Sum [3:0] $end
+$upscope $end
+$scope module BCD_MSD $end
+$var wire 4 0 A [3:0] $end
+$var wire 4 1 B [3:0] $end
+$var wire 1 ' Cin $end
+$var wire 1 " Cout $end
+$var wire 5 2 temp_sum [4:0] $end
+$var wire 5 3 corrected_sum [4:0] $end
+$var wire 1 4 carry_correction $end
+$var wire 4 5 Sum [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 5
+04
+b100 3
+b100 2
+b11 1
+b1 0
+b110 /
+0.
+b110 -
+b110 ,
+0+
+b100 *
+b10 )
+b1000110 (
+0'
+b110100 &
+b10010 %
+b110100 $
+b10010 #
+0"
+b1000110 !
+$end
+#10000
+b10 /
+b10010 !
+b10010 (
+b1 5
+1'
+1"
+b10010 -
+b10001 3
+1.
+b111 *
+14
+b110 1
+b1100 ,
+b101 )
+b1011 2
+b100 0
+b1100111 $
+b1100111 &
+b1000101 #
+b1000101 %
+#20000
+b1000 /
+b10011000 !
+b10011000 (
+b1001 5
+b11000 -
+b11001 3
+b1001 *
+b1001 1
+b10010 ,
+b1001 )
+b10011 2
+b1001 0
+b10011001 $
+b10011001 &
+b10011001 #
+b10011001 %
+#30000
+b101 /
+b1110101 !
+b1110101 (
+b111 5
+0"
+0'
+b101 -
+b111 3
+b101 *
+04
+b10 1
+0.
+b101 ,
+b0 )
+b111 2
+b101 0
+b100101 $
+b100101 &
+b1010000 #
+b1010000 %
+#40000
+b0 /
+b0 !
+b0 (
+b0 5
+b0 -
+b0 3
+b0 ,
+b0 *
+b0 1
+b0 2
+b0 0
+b0 $
+b0 &
+b0 #
+b0 %
+#50000

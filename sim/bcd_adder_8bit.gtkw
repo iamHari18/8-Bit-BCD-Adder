@@ -1,0 +1,24 @@
+[dumpfile] "bcd_adder_8bit.vcd"
+[timestart] 0
+[size] 1600 330
+[pos] 0 0
+[treeopen] tb_bcd_adder_8bit.
+[signals_width] 230
+[sst_expanded] 0
+@200
+-Inputs
+@22
+tb_bcd_adder_8bit.A[7:0]
+tb_bcd_adder_8bit.B[7:0]
+@200
+-Outputs
+@22
+tb_bcd_adder_8bit.Sum[7:0]
+@28
+tb_bcd_adder_8bit.Cout
+@200
+-Internal
+@28
+tb_bcd_adder_8bit.uut.carry_out_lsd
+[pattern_trace] 1
+[pattern_trace] 0
